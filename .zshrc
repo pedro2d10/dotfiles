@@ -108,7 +108,6 @@ POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='yellow'
 	fi
 
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status os_icon battery dir vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(time background_jobs ram virtualenv rvm docker_machine)
 
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
