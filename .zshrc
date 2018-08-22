@@ -101,7 +101,7 @@ POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='yellow'
 POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='yellow'
 #POWERLEVEL9K_VCS_UNTRACKED_ICON='?'
 
-	if [ ! -f /sys/class/power_supply/BAT01 ]; then
+	if [ ! -d /sys/class/power_supply/BAT0 ]; then
 		POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status os_icon dir vcs);
 	else
 		POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(status os_icon battery dir vcs);
