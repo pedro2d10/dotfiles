@@ -1,0 +1,17 @@
+alias reload!='RELOAD=1 source ~/.zshrc'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# Use colors insted of ls (more beautilfull)
+[[ -n "$(command -v colorls)" ]] && alias ls="colorls"
+
+[[ -n "$(command -v nvim)" ]] && alias vim="nvim"
+
+# tmux aliases
+alias ta='tmux attach'
+alias tls='tmux ls'
+alias tat='tmux attach -t'
+alias tns='tmux new-session -s'
