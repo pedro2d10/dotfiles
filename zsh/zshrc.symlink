@@ -15,7 +15,7 @@ source $ZSH/oh-my-zsh.sh
 #Source my .alias file
 #I prefere use a .alias file insteed adding it in my .zshrc conf file
 [[ ! -f ~/.alias ]] || source ~/.alias
-
+[[ ! -f ~/.bash_aliases ]] || source ~/.bash_aliases
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
