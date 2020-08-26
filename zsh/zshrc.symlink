@@ -7,8 +7,8 @@ export ZSH=$DOTFILES/oh-my-zsh
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-source $ZSH/oh-my-zsh.sh
 plugins=(osx git colored-man-pages mosh tmux emoji zsh-syntax-highlighting vi-mode ssh-agent zsh-completions zsh-autosuggestions)
+source $ZSH/oh-my-zsh.sh
 
 
 #Source my .alias file
