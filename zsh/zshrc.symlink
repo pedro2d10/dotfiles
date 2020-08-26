@@ -8,6 +8,7 @@ export ZSH=$DOTFILES/oh-my-zsh
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(osx git colored-man-pages mosh tmux emoji zsh-syntax-highlighting vi-mode ssh-agent zsh-completions zsh-autosuggestions)
+ZSH_DISABLE_COMPFIX="true"
 source $ZSH/oh-my-zsh.sh
 
 
