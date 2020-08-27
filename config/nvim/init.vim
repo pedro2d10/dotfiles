@@ -26,6 +26,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdcommenter'
 Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
+Plug 'junegunn/vim-emoji'
 
 call plug#end()
 
@@ -44,6 +45,9 @@ let g:netrw_banner = 0
 let g:ctrlp_use_caching = 0
 let g:netrw_winsize = 25
 
+nmap <leader>gs :G<CR>
+nmap <leader>gh :diffget //3<CR>
+nmap <leader>gu :diffget //2<CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
@@ -59,3 +63,6 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
+
+" adding the emoji autocomplete
+set completefunc=emoji#complete
