@@ -26,6 +26,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdcommenter'
 Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
+Plug 'vim-scripts/nginx.vim'
+Plug 'mattn/emmet-vim'
+Plug 'mattn/webapi-vim'
 
 call plug#end()
 
@@ -59,3 +62,10 @@ let g:airline#extensions#tabline#enabled = 1
 
 " Show just the filename
 let g:airline#extensions#tabline#fnamemod = ':t'
+let g:user_emmet_leader_key=','
+let g:emmet_lang='fr'
+let g:user_emmet_settings={
+\    'variables':{
+\       'lang':'fr',
+\   },
+\}
