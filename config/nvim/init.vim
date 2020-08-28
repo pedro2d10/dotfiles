@@ -27,6 +27,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdcommenter'
 Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
+
+
+
+
+
+
+
+
+
 Plug 'junegunn/vim-emoji'
 
 call plug#end()
