@@ -27,15 +27,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdcommenter'
 Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
-
-
-
-
-
-
-
-
-
+Plug 'vim-scripts/nginx.vim'
+Plug 'mattn/emmet-vim'
+Plug 'mattn/webapi-vim'
 Plug 'junegunn/vim-emoji'
 
 call plug#end()
@@ -85,3 +79,10 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 
 " adding the emoji autocomplete
 set completefunc=emoji#complete
+let g:user_emmet_leader_key=','
+let g:emmet_lang='fr'
+let g:user_emmet_settings={
+\    'variables':{
+\       'lang':'fr',
+\   },
+\}
