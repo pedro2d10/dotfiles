@@ -1,7 +1,16 @@
 # Remap rpefix from C-b to C-a
 unbind C-b
-set-option -g prefix C-a
-bind-key C-a send-prefix
+set-option -g prefix C-s
+bind-key C-s send-prefix
+
+# Start number of session at 1
+set-option -g base-index 1
+
+#bind vim mouvment
+bind h select-pane -L
+bind l select-pane -R
+bind j select-pane -D
+bind k select-pane -U
 
 # reload Tmux Conf with C-a r
 bind r source-file ~/.tmux.conf
